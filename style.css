@@ -128,8 +128,8 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   margin: auto 0;
 }
 .section__text {
@@ -203,6 +203,10 @@ section {
 #about {
   position: relative;
 }
+.intro-text {
+  font-weight: 500;
+  font-family: "Poppins" sans-serif;
+}
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
@@ -220,6 +224,9 @@ section {
 .about-pic {
   border-radius: 2rem;
   border: 1px solid;
+  width: 350px;
+  height: 250px;
+  align-self: center;
 }
 .arrow {
   position: absolute;
