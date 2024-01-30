@@ -26,6 +26,8 @@ body {
 .navneet-profile-img {
   border-radius: 50%;
 }
+.slide-down {
+}
 .nav-links a {
   text-decoration: none;
   color: black;
@@ -69,6 +71,7 @@ body {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  z-index: 1000;
 }
 .menu-links a {
   display: block;
@@ -114,12 +117,16 @@ section {
   display: flex;
 }
 /* Profile Section */
+.blur {
+  filter: blur(3px);
+}
 #profile {
   display: flex;
   justify-content: center;
   gap: 5rem;
   height: 80vh;
 }
+
 .section__pic-container {
   display: flex;
   height: 400px;
