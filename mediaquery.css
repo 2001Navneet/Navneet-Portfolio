@@ -19,7 +19,7 @@
   .hamburger-nav {
     display: flex;
     justify-content: space-between;
-    margin: 1.5rem auto;
+    margin: 1.5rem 1rem;
   }
   #experience,
   .experience-details-container {
