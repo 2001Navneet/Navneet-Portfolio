@@ -59,6 +59,9 @@
     flex-direction: column;
     margin-top: 0;
   }
+  #about {
+    margin-top: -20px;
+  }
 }
 
 @media screen and (max-width: 600px) {
