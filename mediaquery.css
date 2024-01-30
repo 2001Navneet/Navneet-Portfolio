@@ -24,6 +24,9 @@
 
     margin: 4px 1rem;
   }
+  .about-pic {
+    height: 200px;
+  }
   .menu-links {
     /* background-color: red; */
     width: 100vw;
