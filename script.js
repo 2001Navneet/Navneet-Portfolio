@@ -4,3 +4,4 @@ function toggle() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
+const profile = document.querySelector("#profile");
