@@ -19,12 +19,15 @@
   .hamburger-nav {
     display: flex;
     justify-content: space-between;
+
     /* background-color: orange; */
-    margin: 1.5rem 1rem;
+
+    margin: 4px 1rem;
   }
   .menu-links {
     /* background-color: red; */
     width: 100vw;
+
     /* transform: translateX(-20rem); */
   }
   #experience,
